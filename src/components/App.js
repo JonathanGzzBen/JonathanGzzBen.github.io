@@ -1,26 +1,53 @@
 import React from "react";
-import logo from "../images/logo.svg";
 import "../styles/App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import { Container } from "react-bootstrap";
+import NavBar from "./NavBar";
+import { Element, scroller } from "react-scroll";
+import About from "./sections/About";
+import Education from "./sections/Education";
+import Languages from "./sections/Languages";
+import Contact from "./sections/Contact";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleSectionClick = this.handleSectionClick.bind(this);
+    this.state = {};
+    this.AboutSectionName = "about";
+    this.EducationSectionName = "education";
+    this.LanguagesSectionName = "language";
+    this.ContactSectionName = "contact";
+  }
+
+  handleSectionClick(sectionName) {
+    scroller.scrollTo(sectionName);
+  }
+
+  render() {
+    return (
+      <Container>
+        <NavBar
+          onAboutClick={() => this.handleSectionClick(this.AboutSectionName)}
+          onEducationClick={() =>
+            this.handleSectionClick(this.EducationSectionName)
+          }
+        />
+        <Element name={this.AboutSectionName}>
+          <About />
+        </Element>
+        <Element name={this.EducationSectionName}>
+          <Education />
+        </Element>
+        <Element name={this.LanguagesSectionName}>
+          <Languages />
+        </Element>
+        <Element name={this.ContactSectionName}>
+          <Contact />
+        </Element>
+      </Container>
+    );
+  }
 }
 
 export default App;
