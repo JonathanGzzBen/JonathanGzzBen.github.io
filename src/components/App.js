@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import NavBar from "./NavBar";
 import { Element, scroller } from "react-scroll";
 import About from "./sections/About";
@@ -21,31 +21,44 @@ class App extends React.Component {
   }
 
   handleSectionClick(sectionName) {
-    scroller.scrollTo(sectionName);
+    scroller.scrollTo(sectionName, {
+      duration: 1500,
+      delay: 100,
+      smooth: true,
+      offset: -100,
+    });
   }
 
   render() {
     return (
-      <Container>
+      <div>
         <NavBar
           onAboutClick={() => this.handleSectionClick(this.AboutSectionName)}
           onEducationClick={() =>
             this.handleSectionClick(this.EducationSectionName)
           }
+          onLanguagesClick={() =>
+            this.handleSectionClick(this.LanguagesSectionName)
+          }
+          onContactClick={() =>
+            this.handleSectionClick(this.ContactSectionName)
+          }
         />
-        <Element name={this.AboutSectionName}>
-          <About />
-        </Element>
-        <Element name={this.EducationSectionName}>
-          <Education />
-        </Element>
-        <Element name={this.LanguagesSectionName}>
-          <Languages />
-        </Element>
-        <Element name={this.ContactSectionName}>
-          <Contact />
-        </Element>
-      </Container>
+        <Container>
+          <Element name={this.AboutSectionName}>
+            <About />
+          </Element>
+          <Element name={this.EducationSectionName}>
+            <Education />
+          </Element>
+          <Element name={this.LanguagesSectionName}>
+            <Languages />
+          </Element>
+          <Element name={this.ContactSectionName}>
+            <Contact />
+          </Element>
+        </Container>
+      </div>
     );
   }
 }

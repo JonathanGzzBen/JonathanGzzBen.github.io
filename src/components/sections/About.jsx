@@ -1,13 +1,24 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 const About = () => {
   return (
-    <Container>
+    <Container className="p-5">
       <Row>
-        <h2>About</h2>
-      </Row>
-      <Row>
-        <p>Lorem ipsum</p>
+        <Col md className="p-3 order-md-first">
+          <Image src="https://via.placeholder.com/350" rounded fluid />
+        </Col>
+        <Col md={8}>
+          <h2>About</h2>
+          <p>
+            I am a 19-year-old software engineering student and a full-stack
+            developer improving my programming and designing skills building
+            multiple projects.
+          </p>
+          <p>
+            My skills are mostly self-taught. I am an autodidact that considers
+            that knowledge is the best investment in life.
+          </p>
+        </Col>
       </Row>
     </Container>
   );

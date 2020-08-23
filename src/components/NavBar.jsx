@@ -12,6 +12,10 @@ const NavBar = (props) => {
           <Nav.Link onClick={() => props.onEducationClick()}>
             Education
           </Nav.Link>
+          <Nav.Link onClick={() => props.onLanguagesClick()}>
+            Languages
+          </Nav.Link>
+          <Nav.Link onClick={() => props.onContactClick()}>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
