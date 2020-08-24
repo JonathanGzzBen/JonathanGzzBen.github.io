@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/App.css";
-import "bootstrap/dist/css/bootstrap.css";
+//import "bootstrap/dist/css/bootstrap.css";
+import "../styles/jonathan_theme.css";
 import { Container } from "react-bootstrap";
 import NavBar from "./NavBar";
 import { Element, scroller } from "react-scroll";
