@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Container } from "react-bootstrap";
 import NavBar from "./NavBar";
 import { Element, scroller } from "react-scroll";
+import logo from "../images/personal_logo.png";
 import About from "./sections/About";
 import Education from "./sections/Education";
 import Languages from "./sections/Languages";
@@ -45,6 +46,9 @@ class App extends React.Component {
           }
         />
         <Container>
+          <div className="text-center pt-4">
+            <img src={logo} />
+          </div>
           <Element name={this.AboutSectionName}>
             <About />
           </Element>
