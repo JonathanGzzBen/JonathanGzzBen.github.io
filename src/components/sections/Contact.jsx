@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 const Contact = () => {
   return (
-    <Container className="p-5">
+    <Container className="p-md-5">
       <Row>
-        <Col md className="p-3 order-md-last">
+        <Col md className="p-3 text-center order-md-last">
           <Image src="https://via.placeholder.com/350" rounded fluid />
         </Col>
         <Col md={8}>

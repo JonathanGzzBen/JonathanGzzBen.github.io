@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import NavBar from "./NavBar";
 import { Element, scroller } from "react-scroll";
 import About from "./sections/About";
