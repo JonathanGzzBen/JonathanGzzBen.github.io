@@ -48,7 +48,15 @@ class App extends React.Component {
         />
         <Container>
           <div className="text-center pt-4">
-            <Image src={logo} fluid alt="JonathanGzz Logo" />
+            <header>
+              <Image src={logo} fluid alt="JonathanGzz Logo" />
+              <h4 className="pt-2">
+                Hello, my name is Jonathan González. I am a software engineering
+                student and full stack developer that enjoys improving as
+                programmer and designer by building software that makes people's
+                lives easier.
+              </h4>
+            </header>
           </div>
           <Element name={this.AboutSectionName}>
             <About />

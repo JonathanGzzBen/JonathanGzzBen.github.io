@@ -13,7 +13,7 @@ const Education = () => {
             <li>
               <h4>Technician: Mechatronics</h4>
               <h6>
-                Industrial School and Technical Highschool “Alvaro Obregon”
+                Industrial School and Technical Highschool “Álvaro Obregón”
               </h6>
               <p>
                 I studied mechatronics as an introduction to engineering, I was
@@ -23,19 +23,20 @@ const Education = () => {
             </li>
             <li>
               <h4>Technician: Software Development</h4>
-              <h6>Faculty of Mechanical and Electrical Engineering</h6>
+              <h6>Autonomous University of Nuevo León</h6>
               <p>
-                I decided to study this second technical career at the same time
-                since I had already decided I wanted to dedicate my life to
-                software development, and I wanted a title to back me up.
+                When I decided I would dedicate myself to software development,
+                I enrolled to study a second technical career to back up my
+                knowledge.
               </p>
             </li>
             <li>
               <h4>Bachelor of Engineering: Software Technology</h4>
-              <h6>Faculty of Mechanical and Electrical Engineering</h6>
+              <h6>Autonomous University of Nuevo León</h6>
               <p>
-                I am currently studying software engineering; it mostly serves
-                as a reinforcement to what I study my myself.
+                I am currently studying software engineering; I can meet other
+                programmers, learn concepts, and understand the fundamentals of
+                software.
               </p>
             </li>
           </ul>
