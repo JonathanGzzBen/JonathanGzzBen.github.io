@@ -4,7 +4,7 @@ import "bootstrap/scss/bootstrap.scss";
 import "../styles/jonathan_theme.scss";
 import { Container, Image } from "react-bootstrap";
 import NavBar from "./NavBar";
-import { Element, scroller } from "react-scroll";
+import { Element, scroller, animateScroll as scroll } from "react-scroll";
 import logo from "../images/personal_logo.png";
 import About from "./sections/About";
 import Education from "./sections/Education";
@@ -35,6 +35,7 @@ class App extends React.Component {
     return (
       <div>
         <NavBar
+          onBrandClick={() => scroll.scrollToTop()}
           onAboutClick={() => this.handleSectionClick(this.AboutSectionName)}
           onEducationClick={() =>
             this.handleSectionClick(this.EducationSectionName)

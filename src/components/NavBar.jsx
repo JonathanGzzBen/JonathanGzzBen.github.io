@@ -4,7 +4,12 @@ import { Navbar, Nav } from "react-bootstrap";
 const NavBar = (props) => {
   return (
     <Navbar bg="primary" variant="dark" expand="lg" className="sticky-top">
-      <Navbar.Brand>JonathanGzz</Navbar.Brand>
+      <Navbar.Brand
+        onClick={() => props.onBrandClick()}
+        style={{ cursor: "pointer" }}
+      >
+        JonathanGzz
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
