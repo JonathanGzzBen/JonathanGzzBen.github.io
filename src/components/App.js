@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/App.css";
 import "bootstrap/scss/bootstrap.scss";
 import "../styles/jonathan_theme.scss";
-import { Container } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import NavBar from "./NavBar";
 import { Element, scroller } from "react-scroll";
 import logo from "../images/personal_logo.png";
@@ -48,7 +48,7 @@ class App extends React.Component {
         />
         <Container>
           <div className="text-center pt-4">
-            <img src={logo} />
+            <Image src={logo} fluid alt="JonathanGzz Logo" />
           </div>
           <Element name={this.AboutSectionName}>
             <About />
