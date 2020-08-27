@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b41e505.chunk.css",
-    "main.js": "/static/js/main.ed6e2643.chunk.js",
-    "main.js.map": "/static/js/main.ed6e2643.chunk.js.map",
+    "main.css": "/static/css/main.0886eee5.chunk.css",
+    "main.js": "/static/js/main.5eb9f379.chunk.js",
+    "main.js.map": "/static/js/main.5eb9f379.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68ede38d.js",
     "runtime-main.js.map": "/static/js/runtime-main.68ede38d.js.map",
     "static/css/2.62ff64f5.chunk.css": "/static/css/2.62ff64f5.chunk.css",
-    "static/js/2.3a35924e.chunk.js": "/static/js/2.3a35924e.chunk.js",
-    "static/js/2.3a35924e.chunk.js.map": "/static/js/2.3a35924e.chunk.js.map",
+    "static/js/2.5f8854e4.chunk.js": "/static/js/2.5f8854e4.chunk.js",
+    "static/js/2.5f8854e4.chunk.js.map": "/static/js/2.5f8854e4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.350296942cdeec2df72e15b8b237e50b.js": "/precache-manifest.350296942cdeec2df72e15b8b237e50b.js",
+    "precache-manifest.ad6bbae3c095876da5e16bd7ba52d334.js": "/precache-manifest.ad6bbae3c095876da5e16bd7ba52d334.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.62ff64f5.chunk.css.map": "/static/css/2.62ff64f5.chunk.css.map",
-    "static/css/main.5b41e505.chunk.css.map": "/static/css/main.5b41e505.chunk.css.map",
-    "static/js/2.3a35924e.chunk.js.LICENSE.txt": "/static/js/2.3a35924e.chunk.js.LICENSE.txt",
-    "static/media/personal_logo.png": "/static/media/personal_logo.229482d7.png"
+    "static/css/main.0886eee5.chunk.css.map": "/static/css/main.0886eee5.chunk.css.map",
+    "static/js/2.5f8854e4.chunk.js.LICENSE.txt": "/static/js/2.5f8854e4.chunk.js.LICENSE.txt",
+    "static/media/language_icon.png": "/static/media/language_icon.6a72cee6.png",
+    "static/media/personal_logo.png": "/static/media/personal_logo.229482d7.png",
+    "static/media/rsz_uanl_logo.png": "/static/media/rsz_uanl_logo.2e610a1c.png",
+    "static/media/work-on-laptop.png": "/static/media/work-on-laptop.318f7d39.png"
   },
   "entrypoints": [
     "static/js/runtime-main.68ede38d.js",
     "static/css/2.62ff64f5.chunk.css",
-    "static/js/2.3a35924e.chunk.js",
-    "static/css/main.5b41e505.chunk.css",
-    "static/js/main.ed6e2643.chunk.js"
+    "static/js/2.5f8854e4.chunk.js",
+    "static/css/main.0886eee5.chunk.css",
+    "static/js/main.5eb9f379.chunk.js"
   ]
 }
