@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import languageIcon from "../../images/language_icon.png";
+
 const Languages = () => {
   return (
     <Container className="p-md-5">
       <Row>
         <Col md className="p-3 text-center order-md-first">
-          <Image src="https://via.placeholder.com/350" rounded fluid />
+          <Image src={languageIcon} rounded fluid />
         </Col>
         <Col md={8}>
           <h2>Languages</h2>

@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Image, ListGroup } from "react-bootstrap";
+import workOnLaptop from "../../images/work-on-laptop.png";
 
 const Contact = () => {
   return (
     <Container className="p-md-5">
       <Row>
         <Col md className="p-3 text-center order-md-last">
-          <Image src="https://via.placeholder.com/350" rounded fluid />
+          <Image src={workOnLaptop} rounded fluid />
         </Col>
         <Col md={8}>
           <h2>Contact</h2>
@@ -17,7 +18,7 @@ const Contact = () => {
           </p>
           <ListGroup>
             <ListGroup.Item>
-              <i class="far fa-envelope p-2"></i>
+              <i className="far fa-envelope p-2"></i>
               jonathangzzben@gmail.com
             </ListGroup.Item>
           </ListGroup>

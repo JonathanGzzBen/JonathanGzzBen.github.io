@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import uanlLogo from "../../images/rsz_uanl_logo.png";
+
 const Education = () => {
   return (
     <Container className="p-md-5">
       <Row>
         <Col md className="p-3 text-center order-md-last">
-          <Image src="https://via.placeholder.com/350" rounded fluid />
+          <Image src={uanlLogo} rounded fluid />
         </Col>
         <Col md={8}>
           <h2>Education</h2>
