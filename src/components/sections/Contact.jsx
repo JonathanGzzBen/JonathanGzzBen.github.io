@@ -22,6 +22,17 @@ const Contact = () => {
               jonathangzzben@gmail.com
             </ListGroup.Item>
           </ListGroup>
+          <p className="mt-3">
+            Also, check out my GitHub profile to see what I'm working on
+          </p>
+          <ListGroup>
+            <ListGroup.Item>
+              <i class="fab fa-github"></i>
+              <a href="https://www.github.com/JonathanGzzBen" target="_blank">
+                /JonathanGzzBen
+              </a>
+            </ListGroup.Item>
+          </ListGroup>
         </Col>
       </Row>
     </Container>
