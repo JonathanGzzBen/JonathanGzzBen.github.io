@@ -28,7 +28,11 @@ const Contact = () => {
           <ListGroup>
             <ListGroup.Item>
               <i class="fab fa-github"></i>
-              <a href="https://www.github.com/JonathanGzzBen" target="_blank">
+              <a
+                href="https://www.github.com/JonathanGzzBen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 /JonathanGzzBen
               </a>
             </ListGroup.Item>
