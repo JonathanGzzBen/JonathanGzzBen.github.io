@@ -10,6 +10,7 @@ import About from "./sections/About";
 import Education from "./sections/Education";
 import Languages from "./sections/Languages";
 import Contact from "./sections/Contact";
+import Skills from "./sections/Skills";
 
 class App extends React.Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class App extends React.Component {
     this.AboutSectionName = "about";
     this.EducationSectionName = "education";
     this.LanguagesSectionName = "language";
+    this.SkillsSectionName = "skills";
     this.ContactSectionName = "contact";
   }
 
@@ -43,6 +45,7 @@ class App extends React.Component {
           onLanguagesClick={() =>
             this.handleSectionClick(this.LanguagesSectionName)
           }
+          onSkillsClick={() => this.handleSectionClick(this.SkillsSectionName)}
           onContactClick={() =>
             this.handleSectionClick(this.ContactSectionName)
           }
@@ -67,6 +70,9 @@ class App extends React.Component {
           </Element>
           <Element name={this.LanguagesSectionName}>
             <Languages />
+          </Element>
+          <Element name={this.SkillsSectionName}>
+            <Skills />
           </Element>
           <Element name={this.ContactSectionName}>
             <Contact />
