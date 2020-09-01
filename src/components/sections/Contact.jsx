@@ -27,7 +27,7 @@ const Contact = () => {
           </p>
           <ListGroup>
             <ListGroup.Item>
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
               <a
                 href="https://www.github.com/JonathanGzzBen"
                 target="_blank"
