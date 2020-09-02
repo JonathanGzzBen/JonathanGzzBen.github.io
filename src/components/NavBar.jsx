@@ -2,6 +2,16 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 
 const NavBar = (props) => {
+  let { sections } = props;
+
+  const sectionLinks = sections.map((section, index) => {
+    return (
+      <Nav.Link onClick={() => section.onClick()} key={index}>
+        {section.name}
+      </Nav.Link>
+    );
+  });
+
   return (
     <Navbar bg="primary" variant="dark" expand="lg" className="sticky-top">
       <Navbar.Brand
@@ -12,17 +22,7 @@ const NavBar = (props) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link onClick={() => props.onAboutClick()}>About</Nav.Link>
-          <Nav.Link onClick={() => props.onEducationClick()}>
-            Education
-          </Nav.Link>
-          <Nav.Link onClick={() => props.onLanguagesClick()}>
-            Languages
-          </Nav.Link>
-          <Nav.Link onClick={() => props.onSkillsClick()}>Skills</Nav.Link>
-          <Nav.Link onClick={() => props.onContactClick()}>Contact</Nav.Link>
-        </Nav>
+        <Nav className="mr-auto">{sectionLinks}</Nav>
       </Navbar.Collapse>
     </Navbar>
   );

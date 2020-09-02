@@ -17,11 +17,6 @@ class App extends React.Component {
     super(props);
     this.handleSectionClick = this.handleSectionClick.bind(this);
     this.state = {};
-    this.AboutSectionName = "about";
-    this.EducationSectionName = "education";
-    this.LanguagesSectionName = "language";
-    this.SkillsSectionName = "skills";
-    this.ContactSectionName = "contact";
   }
 
   handleSectionClick(sectionName) {
@@ -34,22 +29,31 @@ class App extends React.Component {
   }
 
   render() {
+    const getSectionObject = (name, component) => ({
+      name: name,
+      component: component,
+      onClick: () => this.handleSectionClick(name),
+    });
+
+    const sections = [
+      getSectionObject("About", <About />),
+      getSectionObject("Education", <Education />),
+      getSectionObject("Languages", <Languages />),
+      getSectionObject("Skills", <Skills />),
+      getSectionObject("Contact", <Contact />),
+    ];
+
+    const sectionElements = sections.map((section, index) => {
+      return (
+        <Element name={section.name} key={index}>
+          {section.component}
+        </Element>
+      );
+    });
+
     return (
       <div>
-        <NavBar
-          onBrandClick={() => scroll.scrollToTop()}
-          onAboutClick={() => this.handleSectionClick(this.AboutSectionName)}
-          onEducationClick={() =>
-            this.handleSectionClick(this.EducationSectionName)
-          }
-          onLanguagesClick={() =>
-            this.handleSectionClick(this.LanguagesSectionName)
-          }
-          onSkillsClick={() => this.handleSectionClick(this.SkillsSectionName)}
-          onContactClick={() =>
-            this.handleSectionClick(this.ContactSectionName)
-          }
-        />
+        <NavBar sections={sections} onBrandClick={() => scroll.scrollToTop()} />
         <Container>
           <div className="text-center pt-4">
             <header>
@@ -62,21 +66,7 @@ class App extends React.Component {
               </h4>
             </header>
           </div>
-          <Element name={this.AboutSectionName}>
-            <About />
-          </Element>
-          <Element name={this.EducationSectionName}>
-            <Education />
-          </Element>
-          <Element name={this.LanguagesSectionName}>
-            <Languages />
-          </Element>
-          <Element name={this.SkillsSectionName}>
-            <Skills />
-          </Element>
-          <Element name={this.ContactSectionName}>
-            <Contact />
-          </Element>
+          {sectionElements}
         </Container>
       </div>
     );
