@@ -2,38 +2,51 @@ import React from "react";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
 
 const Skills = () => {
-  const backendTechnologies = [
-    {
-      name: ".NET Core",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
-    },
-    {
-      name: ".NET",
-      image: "https://cdn.svgporn.com/logos/dotnet.svg",
-    },
-    {
-      name: "Laravel",
-      image: "https://cdn.svgporn.com/logos/laravel.svg",
-    },
-  ];
+  const getTechnologyObject = (name, image) => ({
+    name: name,
+    image: image,
+  });
 
-  const technologyElement = (technology, index) => {
+  const getTechnologiesGroupElement = (groupName, technologies) => {
+    const getTechnologyElement = (technology, index) => {
+      return (
+        <Col key={index} className="text-center">
+          <Image
+            className="p-2"
+            src={technology.image}
+            style={({ minWidth: "100px" }, { maxWidth: "110px" })}
+            fluid
+          />
+          <p>{technology.name}</p>
+        </Col>
+      );
+    };
     return (
-      <Col key={index} className="text-center">
-        <Image
-          className="p-2"
-          src={technology.image}
-          style={({ minWidth: "100px" }, { maxWidth: "110px" })}
-          fluid
-        />
-        <p>{technology.name}</p>
-      </Col>
+      <Card>
+        <Card.Header>
+          <h4>{groupName}</h4>
+        </Card.Header>
+        <Card.Body>
+          <Row className="d-flex flex-wrap">
+            {technologies.map(getTechnologyElement)}
+          </Row>
+        </Card.Body>
+      </Card>
     );
   };
 
-  const backendTechnologiesElements = backendTechnologies.map(
-    technologyElement
+  const backendTechnologies = [
+    getTechnologyObject(
+      ".NET Core",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg"
+    ),
+    getTechnologyObject(".NET", "https://cdn.svgporn.com/logos/dotnet.svg"),
+    getTechnologyObject("Laravel", "https://cdn.svgporn.com/logos/laravel.svg"),
+  ];
+
+  const backendGroup = getTechnologiesGroupElement(
+    "Back-End",
+    backendTechnologies
   );
 
   return (
@@ -41,18 +54,7 @@ const Skills = () => {
       <Row>
         <Col>
           <h2>Skills</h2>
-          <div>
-            <Card>
-              <Card.Header>
-                <h4>Back-End</h4>
-              </Card.Header>
-              <Card.Body>
-                <Row className="d-flex flex-wrap">
-                  {backendTechnologiesElements}
-                </Row>
-              </Card.Body>
-            </Card>
-          </div>
+          <div>{backendGroup}</div>
         </Col>
       </Row>
     </Container>
