@@ -22,16 +22,18 @@ const Skills = () => {
       );
     };
     return (
-      <Card>
-        <Card.Header>
-          <h4>{groupName}</h4>
-        </Card.Header>
-        <Card.Body>
-          <Row className="d-flex flex-wrap">
-            {technologies.map(getTechnologyElement)}
-          </Row>
-        </Card.Body>
-      </Card>
+      <div className="pt-2 pb-2">
+        <Card>
+          <Card.Header>
+            <h4>{groupName}</h4>
+          </Card.Header>
+          <Card.Body>
+            <Row className="d-flex flex-wrap">
+              {technologies.map(getTechnologyElement)}
+            </Row>
+          </Card.Body>
+        </Card>
+      </div>
     );
   };
 
@@ -44,11 +46,6 @@ const Skills = () => {
     getTechnologyObject("Laravel", "https://cdn.svgporn.com/logos/laravel.svg"),
   ];
 
-  const backendTechnologiesGroupElement = getTechnologiesGroupElement(
-    "Back-End",
-    backendTechnologies
-  );
-
   const frontendTechnologies = [
     getTechnologyObject("React", "https://cdn.svgporn.com/logos/react.svg"),
     getTechnologyObject("Vue.js", "https://cdn.svgporn.com/logos/vue.svg"),
@@ -57,11 +54,6 @@ const Skills = () => {
       "https://cdn.svgporn.com/logos/bootstrap.svg"
     ),
   ];
-
-  const frontendTechnologiesGroupElement = getTechnologiesGroupElement(
-    "Front-End",
-    frontendTechnologies
-  );
 
   const technologiesGroupsElements = [
     getTechnologiesGroupElement("Back-End", backendTechnologies),
@@ -75,11 +67,7 @@ const Skills = () => {
           <h2>Skills</h2>
           {technologiesGroupsElements &&
             technologiesGroupsElements.map((technologiesGroup, index) => {
-              return (
-                <div className="pt-2 pb-2" key={index}>
-                  {technologiesGroup}
-                </div>
-              );
+              return <div key={index}>{technologiesGroup}</div>;
             })}
         </Col>
       </Row>
