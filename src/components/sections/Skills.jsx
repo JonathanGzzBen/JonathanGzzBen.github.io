@@ -44,17 +44,43 @@ const Skills = () => {
     getTechnologyObject("Laravel", "https://cdn.svgporn.com/logos/laravel.svg"),
   ];
 
-  const backendGroup = getTechnologiesGroupElement(
+  const backendTechnologiesGroupElement = getTechnologiesGroupElement(
     "Back-End",
     backendTechnologies
   );
+
+  const frontendTechnologies = [
+    getTechnologyObject("React", "https://cdn.svgporn.com/logos/react.svg"),
+    getTechnologyObject("Vue.js", "https://cdn.svgporn.com/logos/vue.svg"),
+    getTechnologyObject(
+      "Bootstrap",
+      "https://cdn.svgporn.com/logos/bootstrap.svg"
+    ),
+  ];
+
+  const frontendTechnologiesGroupElement = getTechnologiesGroupElement(
+    "Front-End",
+    frontendTechnologies
+  );
+
+  const technologiesGroupsElements = [
+    getTechnologiesGroupElement("Back-End", backendTechnologies),
+    getTechnologiesGroupElement("Front-End", frontendTechnologies),
+  ];
 
   return (
     <Container>
       <Row>
         <Col>
           <h2>Skills</h2>
-          <div>{backendGroup}</div>
+          {technologiesGroupsElements &&
+            technologiesGroupsElements.map((technologiesGroup, index) => {
+              return (
+                <div className="pt-2 pb-2" key={index}>
+                  {technologiesGroup}
+                </div>
+              );
+            })}
         </Col>
       </Row>
     </Container>
