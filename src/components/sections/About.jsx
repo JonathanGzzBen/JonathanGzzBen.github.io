@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import myPicture from "../../images/myPicture.png";
+
 const About = () => {
   return (
     <Container className="p-md-5">
       <Row>
         <Col md className="p-3 text-center order-md-first">
-          <Image src="https://via.placeholder.com/350" rounded fluid />
+          <Image src={myPicture} rounded fluid />
         </Col>
         <Col md={8}>
           <h2>About me</h2>
