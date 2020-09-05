@@ -55,9 +55,41 @@ const Skills = () => {
     ),
   ];
 
+  const editingSoftware = [
+    getTechnologyObject(
+      "Photoshop Cs6",
+      "https://cdn.cdnlogo.com/logos/p/64/photoshop-cc.svg"
+    ),
+    getTechnologyObject(
+      "Camtasia Studio 8",
+      "https://img.icons8.com/color/240/000000/camtasia-studio.png"
+    ),
+    getTechnologyObject(
+      "Davinci Resolve 16",
+      "https://img.icons8.com/plasticine/200/000000/davinci-resolve.png"
+    ),
+    getTechnologyObject(
+      "Audacity",
+      "https://img.icons8.com/color/256/000000/audacity.png"
+    ),
+  ];
+
+  const otherTechnologies = [
+    getTechnologyObject(
+      "GitHub",
+      "https://cdn.svgporn.com/logos/github-icon.svg"
+    ),
+    getTechnologyObject(
+      "Docker",
+      "https://cdn.svgporn.com/logos/docker-icon.svg"
+    ),
+  ];
+
   const technologiesGroupsElements = [
     getTechnologiesGroupElement("Back-End", backendTechnologies),
     getTechnologiesGroupElement("Front-End", frontendTechnologies),
+    getTechnologiesGroupElement("Editing Software", editingSoftware),
+    getTechnologiesGroupElement("Other", otherTechnologies),
   ];
 
   return (
