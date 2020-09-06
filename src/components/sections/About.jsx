@@ -9,7 +9,7 @@ const About = () => {
         <Col md className="p-3 text-center order-md-first">
           <Image src={myPicture} rounded fluid />
         </Col>
-        <Col md={8}>
+        <Col md={8} className="text-justify">
           <h2>About me</h2>
           <p>
             I love computers and the endless world of software that programmers

@@ -9,7 +9,7 @@ const Contact = () => {
         <Col md className="p-3 text-center order-md-last">
           <Image src={workOnLaptop} rounded fluid />
         </Col>
-        <Col md={8}>
+        <Col md={8} className="text-justify">
           <h2>Contact</h2>
           <p>
             I’m available for freelance projects or part-time work. If you are

@@ -9,7 +9,7 @@ const Languages = () => {
         <Col md className="p-3 text-center order-md-first">
           <Image src={languageIcon} rounded fluid />
         </Col>
-        <Col md={8}>
+        <Col md={8} className="text-justify">
           <h2>Languages</h2>
           <ul>
             <li>

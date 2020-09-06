@@ -9,7 +9,7 @@ const Education = () => {
         <Col md className="p-3 text-center order-md-last">
           <Image src={uanlLogo} rounded fluid />
         </Col>
-        <Col md={8}>
+        <Col md={8} className="text-justify">
           <h2>Education</h2>
           <ul>
             <li>
