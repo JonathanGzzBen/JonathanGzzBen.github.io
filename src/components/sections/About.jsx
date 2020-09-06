@@ -12,21 +12,17 @@ const About = () => {
         <Col md={8}>
           <h2>About me</h2>
           <p>
-            I have always loved computers and how they have shaped the world,
-            now I know that this is thanks to programmers that have built an
-            endless world of software. This thought is what brought me to
-            dedicate my life to programming.
+            I love computers and the endless world of software that programmers
+            have built. My admiration for them is what brought me to dedicate my
+            life to programming.
           </p>
           <p>
-            My skills are mostly self-taught through books and online courses. I
-            am an autodidact that considers that learning is the best investment
-            in life.
+            Most of my skills are self-taught. I am an autodidact that considers
+            that learning is the best investment in life.
           </p>
           <p>
-            As a full stack developer, I enjoy using my love for learning and
-            programming to improve by building software that helps people do
-            what they enjoy doing. That's why I'm excited to make a big impact
-            at a high growth company.
+            My mission is improving as software engineer to build things that
+            have a big impact.
           </p>
         </Col>
       </Row>
