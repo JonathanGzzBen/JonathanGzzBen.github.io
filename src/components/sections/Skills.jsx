@@ -64,7 +64,7 @@ const Skills = () => {
       "https://cdn.cdnlogo.com/logos/p/64/photoshop-cc.svg"
     ),
     getTechnologyObject(
-      "Camtasia Studio",
+      "Camtasia",
       "https://img.icons8.com/color/240/000000/camtasia-studio.png"
     ),
     getTechnologyObject(
