@@ -28,7 +28,10 @@ const Skills = () => {
             <h4>{groupName}</h4>
           </Card.Header>
           <Card.Body>
-            <Row className="d-flex flex-wrap">
+            <Row
+              className="d-flex flex-wrap"
+              style={{ alignItems: "flex-end" }}
+            >
               {technologies.map(getTechnologyElement)}
             </Row>
           </Card.Body>
@@ -74,6 +77,15 @@ const Skills = () => {
     ),
   ];
 
+  const databases = [
+    getTechnologyObject("MySQL", "https://cdn.svgporn.com/logos/mysql.svg"),
+    getTechnologyObject(
+      "MS SQL",
+      "https://img.icons8.com/color/96/000000/microsoft-sql-server.png"
+    ),
+    getTechnologyObject("SQLite", "https://cdn.svgporn.com/logos/sqlite.svg"),
+  ];
+
   const otherTechnologies = [
     getTechnologyObject(
       "GitHub",
@@ -89,6 +101,7 @@ const Skills = () => {
     getTechnologiesGroupElement("Back-End", backendTechnologies),
     getTechnologiesGroupElement("Front-End", frontendTechnologies),
     getTechnologiesGroupElement("Editing Software", editingSoftware),
+    getTechnologiesGroupElement("Databases", databases),
     getTechnologiesGroupElement("Other", otherTechnologies),
   ];
 
