@@ -60,15 +60,15 @@ const Skills = () => {
 
   const editingSoftware = [
     getTechnologyObject(
-      "Photoshop Cs6",
+      "Photoshop",
       "https://cdn.cdnlogo.com/logos/p/64/photoshop-cc.svg"
     ),
     getTechnologyObject(
-      "Camtasia Studio 8",
+      "Camtasia Studio",
       "https://img.icons8.com/color/240/000000/camtasia-studio.png"
     ),
     getTechnologyObject(
-      "Davinci Resolve 16",
+      "DaVinci Resolve",
       "https://img.icons8.com/plasticine/200/000000/davinci-resolve.png"
     ),
     getTechnologyObject(
