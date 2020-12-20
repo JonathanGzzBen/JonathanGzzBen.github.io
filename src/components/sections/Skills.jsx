@@ -14,7 +14,7 @@ const Skills = () => {
           <Image
             className="p-2"
             src={technology.image}
-            style={({ minWidth: "100px" }, { maxWidth: "110px" })}
+            style={({ minWidth: "80px" }, { maxWidth: "110px" }, {maxHeight: "110px"})}
             fluid
           />
           <p>{technology.name}</p>
@@ -47,6 +47,7 @@ const Skills = () => {
     ),
     getTechnologyObject(".NET", "https://cdn.svgporn.com/logos/dotnet.svg"),
     getTechnologyObject("Laravel", "https://cdn.svgporn.com/logos/laravel.svg"),
+    getTechnologyObject("Firebase", "https://cdn.svgporn.com/logos/firebase.svg")
   ];
 
   const frontendTechnologies = [
