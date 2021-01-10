@@ -11,6 +11,7 @@ import Education from "./sections/Education";
 import Languages from "./sections/Languages";
 import Contact from "./sections/Contact";
 import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
 
 class App extends React.Component {
   constructor(props) {
@@ -40,7 +41,8 @@ class App extends React.Component {
       getSectionObject("Education", <Education />),
       getSectionObject("Languages", <Languages />),
       getSectionObject("Skills", <Skills />),
-      getSectionObject("Contact", <Contact />),
+      getSectionObject("Projects", <Projects />),
+      getSectionObject("Contact", <Contact />)
     ];
 
     const sectionElements = sections.map((section, index) => {
