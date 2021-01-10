@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.0886eee5.chunk.css",
-    "main.js": "/static/js/main.1f0c1b55.chunk.js",
-    "main.js.map": "/static/js/main.1f0c1b55.chunk.js.map",
+    "main.css": "/static/css/main.81914d18.chunk.css",
+    "main.js": "/static/js/main.0f062f5b.chunk.js",
+    "main.js.map": "/static/js/main.0f062f5b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68ede38d.js",
     "runtime-main.js.map": "/static/js/runtime-main.68ede38d.js.map",
     "static/css/2.62ff64f5.chunk.css": "/static/css/2.62ff64f5.chunk.css",
-    "static/js/2.81e7db6f.chunk.js": "/static/js/2.81e7db6f.chunk.js",
-    "static/js/2.81e7db6f.chunk.js.map": "/static/js/2.81e7db6f.chunk.js.map",
+    "static/js/2.e496018c.chunk.js": "/static/js/2.e496018c.chunk.js",
+    "static/js/2.e496018c.chunk.js.map": "/static/js/2.e496018c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.905c181aafdedcbeabfca9e5c7f7778e.js": "/precache-manifest.905c181aafdedcbeabfca9e5c7f7778e.js",
+    "precache-manifest.1c2cb80ee25f540463d3feca96011069.js": "/precache-manifest.1c2cb80ee25f540463d3feca96011069.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.62ff64f5.chunk.css.map": "/static/css/2.62ff64f5.chunk.css.map",
-    "static/css/main.0886eee5.chunk.css.map": "/static/css/main.0886eee5.chunk.css.map",
-    "static/js/2.81e7db6f.chunk.js.LICENSE.txt": "/static/js/2.81e7db6f.chunk.js.LICENSE.txt",
+    "static/css/main.81914d18.chunk.css.map": "/static/css/main.81914d18.chunk.css.map",
+    "static/js/2.e496018c.chunk.js.LICENSE.txt": "/static/js/2.e496018c.chunk.js.LICENSE.txt",
     "static/media/language_icon.png": "/static/media/language_icon.6a72cee6.png",
     "static/media/myPicture.png": "/static/media/myPicture.11ae4e00.png",
     "static/media/personal_logo.png": "/static/media/personal_logo.229482d7.png",
     "static/media/rsz_uanl_logo.png": "/static/media/rsz_uanl_logo.2e610a1c.png",
+    "static/media/streamersliveScreenshot.png": "/static/media/streamersliveScreenshot.9649e6c1.png",
     "static/media/work-on-laptop.png": "/static/media/work-on-laptop.318f7d39.png"
   },
   "entrypoints": [
     "static/js/runtime-main.68ede38d.js",
     "static/css/2.62ff64f5.chunk.css",
-    "static/js/2.81e7db6f.chunk.js",
-    "static/css/main.0886eee5.chunk.css",
-    "static/js/main.1f0c1b55.chunk.js"
+    "static/js/2.e496018c.chunk.js",
+    "static/css/main.81914d18.chunk.css",
+    "static/js/main.0f062f5b.chunk.js"
   ]
 }
