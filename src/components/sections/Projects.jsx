@@ -1,11 +1,13 @@
 import React from "react";
 import streamersliveScreenshot from "../../images/projects/streamerslive/streamersliveScreenshot.png";
+import jotnoteScreenshot from "../../images/projects/jotnote/jotnoteScreenshot.png";
 import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
+import styles from "../../styles/ProjectCard.module.css";
 
 const Projects = () => {
   const getProjectCard = (title, image, description, skills) => {
     return (
-      <Card>
+      <Card className={styles.ProjectCard}>
         <Card.Img variant="top" src={image} />
         <Card.Body>
           <Card.Title>
@@ -64,6 +66,21 @@ const Projects = () => {
             "https://pkg.go.dev/github.com/JonathanGzzBen/streamerslive"
           )}
         </>,
+      ]
+    ),
+    getProjectCard(
+      <>{getLink("JotNote", "https://github.com/JonathanGzzBen/JotNote")}</>,
+      jotnoteScreenshot,
+      "JotNote is a command line tool to jot notes.",
+      [
+        "Python",
+        "SQLite",
+        "Handling configurations",
+        <>
+          Building CLIs using{" "}
+          {getLink("Click", "https://click.palletsprojects.com/en/7.x/")}
+        </>,
+        "Packaging Python project",
       ]
     ),
   ];
