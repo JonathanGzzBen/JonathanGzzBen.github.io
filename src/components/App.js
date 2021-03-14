@@ -42,7 +42,7 @@ class App extends React.Component {
       getSectionObject("Languages", <Languages />),
       getSectionObject("Skills", <Skills />),
       getSectionObject("Projects", <Projects />),
-      getSectionObject("Contact", <Contact />)
+      getSectionObject("Contact", <Contact />),
     ];
 
     const sectionElements = sections.map((section, index) => {
@@ -56,7 +56,7 @@ class App extends React.Component {
     return (
       <div>
         <NavBar sections={sections} onBrandClick={() => scroll.scrollToTop()} />
-        <Container>
+        <Container className="pb-3">
           <div className="text-center pt-4">
             <header>
               <Image src={logo} fluid alt="JonathanGzz Logo" />
