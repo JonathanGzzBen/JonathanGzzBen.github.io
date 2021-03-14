@@ -38,8 +38,7 @@ const Languages = () => {
               <h4>Japanese – Currently studying</h4>
               <p>
                 I like japanese videogames, visual novels, and anime. During
-                quarantine I decided to study japanese by myself and now it has
-                become a habit to study grammar and learn some kanji every day.
+                quarantine I decided to study japanese by myself.
               </p>
             </li>
           </ul>
