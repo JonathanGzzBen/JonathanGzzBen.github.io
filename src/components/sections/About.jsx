@@ -14,15 +14,15 @@ const About = () => {
           <p>
             I love computers and the endless world of software that programmers
             have built. My admiration for them is what brought me to dedicate my
-            life to programming.
+            life to software development.
           </p>
           <p>
             Most of my skills are self-taught. I am an autodidact that considers
             that learning is the best investment in life.
           </p>
           <p>
-            My mission is improving as software engineer to build things that
-            have a big impact.
+            I also love building Gunpla and trying out random Linux distros.
+            Btw, I use Arch.
           </p>
         </Col>
       </Row>
