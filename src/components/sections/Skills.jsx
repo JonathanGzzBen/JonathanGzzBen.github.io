@@ -52,6 +52,7 @@ const Skills = () => {
 
   const frontendTechnologies = [
     getTechnologyObject("React", "https://cdn.svgporn.com/logos/react.svg"),
+    getTechnologyObject("Next.js", "https://cdn.svgporn.com/logos/nextjs.svg"),
     getTechnologyObject("Vue.js", "https://cdn.svgporn.com/logos/vue.svg"),
     getTechnologyObject(
       "Bootstrap",
