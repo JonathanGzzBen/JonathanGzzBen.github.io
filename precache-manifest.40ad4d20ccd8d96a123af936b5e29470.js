@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05ec05edebdec3f4f690edbd6e92366c",
+    "revision": "8572689d6c382f0ca63c151f37d0f01e",
     "url": "/index.html"
   },
   {
-    "revision": "3f209a8498ef25dffa04",
+    "revision": "34e58cacca21c80ae79c",
     "url": "/static/css/2.62ff64f5.chunk.css"
   },
   {
-    "revision": "83da5d737a25466ee6dd",
+    "revision": "4ac470f956cfedeb13ef",
     "url": "/static/css/main.192c12a0.chunk.css"
   },
   {
-    "revision": "3f209a8498ef25dffa04",
-    "url": "/static/js/2.4c8a90fb.chunk.js"
+    "revision": "34e58cacca21c80ae79c",
+    "url": "/static/js/2.3c1d38d5.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.4c8a90fb.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3c1d38d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83da5d737a25466ee6dd",
-    "url": "/static/js/main.0f0c279a.chunk.js"
+    "revision": "4ac470f956cfedeb13ef",
+    "url": "/static/js/main.a97ba94a.chunk.js"
   },
   {
     "revision": "b6083917d72f85e7f855",
     "url": "/static/js/runtime-main.68ede38d.js"
+  },
+  {
+    "revision": "86d516dcfd84deca4cf81bff0bbb45ac",
+    "url": "/static/media/golang-logo.86d516dc.svg"
   },
   {
     "revision": "ce3466dbdb1719d4511356a44ae2c985",
