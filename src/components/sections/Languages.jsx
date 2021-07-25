@@ -16,7 +16,7 @@ const Languages = () => {
               <h4>Spanish - Native</h4>
             </li>
             <li>
-              <h4>English - C2</h4>
+              <h4>English - B2</h4>
               <p>
                 Studied english when I was 11 years old at a private school. I
                 consume everything I can in english, such as books, movies, or
@@ -38,7 +38,8 @@ const Languages = () => {
               <h4>Japanese – Currently studying</h4>
               <p>
                 I like japanese videogames, visual novels, and anime. During
-                quarantine I decided to study japanese by myself.
+                quarantine I decided to study japanese by myself and then enrolled
+                in the japanese course of the university where I study.
               </p>
             </li>
           </ul>
