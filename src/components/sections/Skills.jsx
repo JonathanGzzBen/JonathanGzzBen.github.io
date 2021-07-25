@@ -66,25 +66,6 @@ const Skills = () => {
     ),
   ];
 
-  const editingSoftware = [
-    getTechnologyObject(
-      "Photoshop",
-      "https://cdn.cdnlogo.com/logos/p/64/photoshop-cc.svg"
-    ),
-    getTechnologyObject(
-      "Camtasia",
-      "https://img.icons8.com/color/240/000000/camtasia-studio.png"
-    ),
-    getTechnologyObject(
-      "DaVinci Resolve",
-      "https://img.icons8.com/plasticine/200/000000/davinci-resolve.png"
-    ),
-    getTechnologyObject(
-      "Audacity",
-      "https://img.icons8.com/color/256/000000/audacity.png"
-    ),
-  ];
-
   const databases = [
     getTechnologyObject("MySQL", "https://cdn.svgporn.com/logos/mysql.svg"),
     getTechnologyObject(
@@ -108,7 +89,6 @@ const Skills = () => {
   const technologiesGroupsElements = [
     getTechnologiesGroupElement("Back-End", backendTechnologies),
     getTechnologiesGroupElement("Front-End", frontendTechnologies),
-    getTechnologiesGroupElement("Editing Software", editingSoftware),
     getTechnologiesGroupElement("Databases", databases),
     getTechnologiesGroupElement("Other", otherTechnologies),
   ];
