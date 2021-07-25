@@ -45,9 +45,9 @@ const Education = () => {
               <h4>Azure AZ-900 Certification</h4>
               <h6>Microsoft</h6>
               <p>
-                I learned the basics of cloud concepts and services, Azure services,
-                security and privacy and learned storage, compute and networking
-                concepts and practices.
+                I earned foundational knowledge of cloud services and how those
+                services are provided by Microsoft Azure. I also learned security
+                and privacy good practices.
               </p>
             </li>
           </ul>
