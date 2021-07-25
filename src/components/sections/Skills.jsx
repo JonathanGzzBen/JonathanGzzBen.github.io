@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
 
+import golangLogo from "../../images/golang-logo.svg"
+
 const Skills = () => {
   const getTechnologyObject = (name, image) => ({
     name: name,
@@ -41,6 +43,10 @@ const Skills = () => {
   };
 
   const backendTechnologies = [
+    getTechnologyObject(
+      "Go",
+      golangLogo
+    ),
     getTechnologyObject(
       ".NET Core",
       "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg"
