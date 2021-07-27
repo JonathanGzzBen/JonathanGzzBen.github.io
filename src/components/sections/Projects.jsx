@@ -1,6 +1,7 @@
 import React from "react";
-import streamersliveScreenshot from "../../images/projects/streamerslive/streamersliveScreenshot.png";
+import ingenialistsPortada from "../../images/projects/ingenialists/IngenialistsPortada.png";
 import abarrotesRaguePortada from "../../images/projects/abarrotes-rague/AbarrotesRaGuePortada.png";
+import streamersliveScreenshot from "../../images/projects/streamerslive/streamersliveScreenshot.png";
 import jotnoteScreenshot from "../../images/projects/jotnote/jotnoteScreenshot.png";
 import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
 import styles from "../../styles/ProjectCard.module.css";
@@ -37,6 +38,30 @@ const Projects = () => {
   );
 
   const projectsCards = [
+    getProjectCard(
+      <>
+        {getLink(
+          "Ingenialists",
+          "https://github.com/JonathanGzzBen/ingenialists"
+        )}
+      </>,
+      ingenialistsPortada,
+      "Ingenialists is a blogging platform for engineering articles. This project is currently in development.",
+      [
+        "Go",
+        <>
+          {getLink("Gin", "https://github.com/gin-gonic/gin")}
+        </>,
+        <>
+          {getLink("Gorm", "https://gorm.io/")}
+        </>,
+        "Swagger",
+        "OAuth2",
+        "Unit Testing",
+        "OAuth2 Mocking",
+        "GitHub workflows",
+      ]
+    ),
     getProjectCard(
       <>
           Abarrotes Rague
