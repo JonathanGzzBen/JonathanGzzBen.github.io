@@ -1,5 +1,6 @@
 import React from "react";
 import streamersliveScreenshot from "../../images/projects/streamerslive/streamersliveScreenshot.png";
+import abarrotesRaguePortada from "../../images/projects/abarrotes-rague/AbarrotesRaGuePortada.png";
 import jotnoteScreenshot from "../../images/projects/jotnote/jotnoteScreenshot.png";
 import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
 import styles from "../../styles/ProjectCard.module.css";
@@ -36,6 +37,20 @@ const Projects = () => {
   );
 
   const projectsCards = [
+    getProjectCard(
+      <>
+          Abarrotes Rague
+      </>,
+      abarrotesRaguePortada,
+      "Abarrotes RaGue is a shopping platform I made for a local store.",
+      [
+        "JavaScript",
+        "Firebase",
+        <>
+          Deploying to a VPS
+        </>,
+      ]
+    ),
     getProjectCard(
       <>
         {getLink(
@@ -89,7 +104,7 @@ const Projects = () => {
       <Row>
         <Col>
           <h2>Recent Projects</h2>
-          <p>These are my most recent open source projects.</p>
+          <p>These are my most recent projects, most of them open source.</p>
         </Col>
       </Row>
       <Row>
