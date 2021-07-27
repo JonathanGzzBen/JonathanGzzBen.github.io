@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8572689d6c382f0ca63c151f37d0f01e",
+    "revision": "c89d17eabea15fbd9171761bd2f3a642",
     "url": "/index.html"
   },
   {
-    "revision": "34e58cacca21c80ae79c",
+    "revision": "4255e449fc1e4436d620",
     "url": "/static/css/2.62ff64f5.chunk.css"
   },
   {
-    "revision": "4ac470f956cfedeb13ef",
+    "revision": "eaeaae0aa34f7ab0a978",
     "url": "/static/css/main.192c12a0.chunk.css"
   },
   {
-    "revision": "34e58cacca21c80ae79c",
-    "url": "/static/js/2.3c1d38d5.chunk.js"
+    "revision": "4255e449fc1e4436d620",
+    "url": "/static/js/2.5934d0e8.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.3c1d38d5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5934d0e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ac470f956cfedeb13ef",
-    "url": "/static/js/main.a97ba94a.chunk.js"
+    "revision": "eaeaae0aa34f7ab0a978",
+    "url": "/static/js/main.ec2b1223.chunk.js"
   },
   {
     "revision": "b6083917d72f85e7f855",
     "url": "/static/js/runtime-main.68ede38d.js"
+  },
+  {
+    "revision": "9cad09e373fec921cf772627191c7ea5",
+    "url": "/static/media/AbarrotesRaGuePortada.9cad09e3.png"
+  },
+  {
+    "revision": "ae7a786732036ec70278af195800024d",
+    "url": "/static/media/IngenialistsPortada.ae7a7867.png"
   },
   {
     "revision": "86d516dcfd84deca4cf81bff0bbb45ac",
