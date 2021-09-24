@@ -15,7 +15,7 @@ const Education = () => {
             <li>
               <h4>Technician: Mechatronics</h4>
               <h6>
-                Industrial School and Technical Highschool “Álvaro Obregón”
+                Industrial High School “Álvaro Obregón”
               </h6>
               <p>
                 I studied mechatronics as an introduction to engineering, I was
@@ -38,7 +38,7 @@ const Education = () => {
               <p>
                 I am currently studying software engineering; I can meet other
                 programmers, learn concepts, and understand the fundamentals of
-                software.
+                software engineering.
               </p>
             </li>
             <li>
