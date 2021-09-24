@@ -62,7 +62,6 @@ const Skills = () => {
       ".NET Core",
       "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg"
     ),
-    getTechnologyObject(".NET", "https://cdn.svgporn.com/logos/dotnet.svg"),
     getTechnologyObject("Laravel", "https://cdn.svgporn.com/logos/laravel.svg"),
     getTechnologyObject(
       "Firebase",
