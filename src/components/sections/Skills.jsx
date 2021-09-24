@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
 
-import golangLogo from "../../images/golang-logo.svg"
-
 const Skills = () => {
   const getTechnologyObject = (name, image) => ({
     name: name,
@@ -16,7 +14,11 @@ const Skills = () => {
           <Image
             className="p-2"
             src={technology.image}
-            style={({ minWidth: "80px" }, { maxWidth: "110px" }, {maxHeight: "110px"})}
+            style={
+              ({ minWidth: "80px" },
+              { maxWidth: "110px" },
+              { maxHeight: "110px" })
+            }
             fluid
           />
           <p>{technology.name}</p>
@@ -42,18 +44,30 @@ const Skills = () => {
     );
   };
 
-  const backendTechnologies = [
+  const programmingLanguages = [
+    getTechnologyObject("Go", "https://cdn.svgporn.com/logos/go.svg"),
+    getTechnologyObject("C", "https://cdn.svgporn.com/logos/c.svg"),
+    getTechnologyObject("C++", "https://cdn.svgporn.com/logos/c-plusplus.svg"),
+    getTechnologyObject("C#", "https://cdn.svgporn.com/logos/c-sharp.svg"),
+    getTechnologyObject("Python", "https://cdn.svgporn.com/logos/python.svg"),
     getTechnologyObject(
-      "Go",
-      golangLogo
+      "JavaScript",
+      "https://cdn.svgporn.com/logos/javascript.svg"
     ),
+  ];
+
+  const backendTechnologies = [
+    getTechnologyObject("Go", "https://cdn.svgporn.com/logos/go.svg"),
     getTechnologyObject(
       ".NET Core",
       "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg"
     ),
     getTechnologyObject(".NET", "https://cdn.svgporn.com/logos/dotnet.svg"),
     getTechnologyObject("Laravel", "https://cdn.svgporn.com/logos/laravel.svg"),
-    getTechnologyObject("Firebase", "https://cdn.svgporn.com/logos/firebase.svg")
+    getTechnologyObject(
+      "Firebase",
+      "https://cdn.svgporn.com/logos/firebase.svg"
+    ),
   ];
 
   const frontendTechnologies = [
@@ -72,6 +86,7 @@ const Skills = () => {
       "MS SQL",
       "https://img.icons8.com/color/96/000000/microsoft-sql-server.png"
     ),
+    getTechnologyObject("MongoDB", "https://cdn.svgporn.com/logos/mongodb.svg"),
     getTechnologyObject("SQLite", "https://cdn.svgporn.com/logos/sqlite.svg"),
   ];
 
@@ -84,9 +99,18 @@ const Skills = () => {
       "Docker",
       "https://cdn.svgporn.com/logos/docker-icon.svg"
     ),
+    getTechnologyObject(
+      "UNIX/Linux",
+      "https://cdn.svgporn.com/logos/linux-tux.svg"
+    ),
+    getTechnologyObject(
+      "Microsoft Azure",
+      "https://cdn.svgporn.com/logos/azure-icon.svg"
+    ),
   ];
 
   const technologiesGroupsElements = [
+    getTechnologiesGroupElement("Programming Languages", programmingLanguages),
     getTechnologiesGroupElement("Back-End", backendTechnologies),
     getTechnologiesGroupElement("Front-End", frontendTechnologies),
     getTechnologiesGroupElement("Databases", databases),
