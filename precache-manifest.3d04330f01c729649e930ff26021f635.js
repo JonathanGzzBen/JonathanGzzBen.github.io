@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c89d17eabea15fbd9171761bd2f3a642",
+    "revision": "0e50b754b52ebca9a13e47011705e9d4",
     "url": "/index.html"
   },
   {
-    "revision": "4255e449fc1e4436d620",
+    "revision": "dc19e990d53f164a911f",
     "url": "/static/css/2.62ff64f5.chunk.css"
   },
   {
-    "revision": "eaeaae0aa34f7ab0a978",
+    "revision": "e8cd5f7b5cfbd45792b2",
     "url": "/static/css/main.192c12a0.chunk.css"
   },
   {
-    "revision": "4255e449fc1e4436d620",
-    "url": "/static/js/2.5934d0e8.chunk.js"
+    "revision": "dc19e990d53f164a911f",
+    "url": "/static/js/2.e782b43d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.5934d0e8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e782b43d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eaeaae0aa34f7ab0a978",
-    "url": "/static/js/main.ec2b1223.chunk.js"
+    "revision": "e8cd5f7b5cfbd45792b2",
+    "url": "/static/js/main.4702c5a8.chunk.js"
   },
   {
     "revision": "b6083917d72f85e7f855",
@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/IngenialistsPortada.ae7a7867.png"
   },
   {
-    "revision": "86d516dcfd84deca4cf81bff0bbb45ac",
-    "url": "/static/media/golang-logo.86d516dc.svg"
-  },
-  {
     "revision": "ce3466dbdb1719d4511356a44ae2c985",
     "url": "/static/media/jotnoteScreenshot.ce3466db.png"
   },
@@ -52,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/myPicture.11ae4e00.png"
   },
   {
-    "revision": "229482d707aae5966e447dfb74214003",
-    "url": "/static/media/personal_logo.229482d7.png"
+    "revision": "b078e0782846668ec34edc73f67f9782",
+    "url": "/static/media/personal_logo.b078e078.png"
   },
   {
     "revision": "2e610a1ccdfdf8ccd0e11e7a85b23eec",

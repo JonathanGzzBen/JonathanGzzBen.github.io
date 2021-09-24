@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.192c12a0.chunk.css",
-    "main.js": "/static/js/main.ec2b1223.chunk.js",
-    "main.js.map": "/static/js/main.ec2b1223.chunk.js.map",
+    "main.js": "/static/js/main.4702c5a8.chunk.js",
+    "main.js.map": "/static/js/main.4702c5a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68ede38d.js",
     "runtime-main.js.map": "/static/js/runtime-main.68ede38d.js.map",
     "static/css/2.62ff64f5.chunk.css": "/static/css/2.62ff64f5.chunk.css",
-    "static/js/2.5934d0e8.chunk.js": "/static/js/2.5934d0e8.chunk.js",
-    "static/js/2.5934d0e8.chunk.js.map": "/static/js/2.5934d0e8.chunk.js.map",
+    "static/js/2.e782b43d.chunk.js": "/static/js/2.e782b43d.chunk.js",
+    "static/js/2.e782b43d.chunk.js.map": "/static/js/2.e782b43d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9120d960d5aeb2dc9e1cd644bba53627.js": "/precache-manifest.9120d960d5aeb2dc9e1cd644bba53627.js",
+    "precache-manifest.3d04330f01c729649e930ff26021f635.js": "/precache-manifest.3d04330f01c729649e930ff26021f635.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.62ff64f5.chunk.css.map": "/static/css/2.62ff64f5.chunk.css.map",
     "static/css/main.192c12a0.chunk.css.map": "/static/css/main.192c12a0.chunk.css.map",
-    "static/js/2.5934d0e8.chunk.js.LICENSE.txt": "/static/js/2.5934d0e8.chunk.js.LICENSE.txt",
+    "static/js/2.e782b43d.chunk.js.LICENSE.txt": "/static/js/2.e782b43d.chunk.js.LICENSE.txt",
     "static/media/AbarrotesRaGuePortada.png": "/static/media/AbarrotesRaGuePortada.9cad09e3.png",
     "static/media/IngenialistsPortada.png": "/static/media/IngenialistsPortada.ae7a7867.png",
-    "static/media/golang-logo.svg": "/static/media/golang-logo.86d516dc.svg",
     "static/media/jotnoteScreenshot.png": "/static/media/jotnoteScreenshot.ce3466db.png",
     "static/media/language_icon.png": "/static/media/language_icon.6a72cee6.png",
     "static/media/myPicture.png": "/static/media/myPicture.11ae4e00.png",
-    "static/media/personal_logo.png": "/static/media/personal_logo.229482d7.png",
+    "static/media/personal_logo.png": "/static/media/personal_logo.b078e078.png",
     "static/media/rsz_uanl_logo.png": "/static/media/rsz_uanl_logo.2e610a1c.png",
     "static/media/streamersliveScreenshot.png": "/static/media/streamersliveScreenshot.9649e6c1.png",
     "static/media/work-on-laptop.png": "/static/media/work-on-laptop.318f7d39.png"
@@ -28,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.68ede38d.js",
     "static/css/2.62ff64f5.chunk.css",
-    "static/js/2.5934d0e8.chunk.js",
+    "static/js/2.e782b43d.chunk.js",
     "static/css/main.192c12a0.chunk.css",
-    "static/js/main.ec2b1223.chunk.js"
+    "static/js/main.4702c5a8.chunk.js"
   ]
 }
