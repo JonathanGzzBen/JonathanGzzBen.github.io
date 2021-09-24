@@ -16,7 +16,7 @@ const Languages = () => {
               <h4>Spanish - Native</h4>
             </li>
             <li>
-              <h4>English - B2</h4>
+              <h4>English - C2</h4>
               <p>
                 Studied english when I was 11 years old at a private school. I
                 consume everything I can in english, such as books, movies, or
