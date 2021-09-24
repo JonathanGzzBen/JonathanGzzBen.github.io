@@ -61,9 +61,8 @@ class App extends React.Component {
             <header>
               <Image src={logo} fluid alt="JonathanGzz Logo" />
               <h4 className="pt-2">
-                Hello, my name is Jonathan González. I am a software engineering
-                student and full stack developer.
-                <br />I enjoy learning and improving while building useful
+                Hello, my name is Jonathan González. I am a software developer and software engineering student.
+                <br />I enjoy learning and improving by building useful
                 things.
               </h4>
             </header>
