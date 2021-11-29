@@ -13,27 +13,32 @@ const Contact = () => {
           <h2>Contact</h2>
           <p>
             I’m available for freelance projects or part-time work. If you are
-            interested in working with me, or simply want to say hi, send me an
-            email.
+            interested in working with me, or simply want to say hi, just
+            contact me.
           </p>
           <ListGroup>
             <ListGroup.Item>
               <i className="far fa-envelope p-2"></i>
               jonathangzzben@gmail.com
             </ListGroup.Item>
-          </ListGroup>
-          <p className="mt-3">
-            Also, check out my GitHub profile to see what I'm working on
-          </p>
-          <ListGroup>
             <ListGroup.Item>
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github pr-2"></i>
               <a
                 href="https://www.github.com/JonathanGzzBen"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                /JonathanGzzBen
+                JonathanGzzBen
+              </a>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <i className="fab fa-linkedin pr-2"></i>
+              <a
+                href="https://www.linkedin.com/in/jonathangzzben/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jonathan González
               </a>
             </ListGroup.Item>
           </ListGroup>
