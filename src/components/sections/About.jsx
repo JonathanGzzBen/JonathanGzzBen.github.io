@@ -21,8 +21,8 @@ const About = () => {
             that learning is the best investment in life.
           </p>
           <p>
-            I also love building Gunpla and trying out random Linux distros.
-            Btw, I use Arch.
+            I also love building Gunpla, watching anime and reading Visual
+            Novels.
           </p>
         </Col>
       </Row>
