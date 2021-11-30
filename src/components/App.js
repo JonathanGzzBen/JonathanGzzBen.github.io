@@ -65,13 +65,14 @@ class App extends React.Component {
                 and software engineering student.
                 <br />I enjoy learning and improving by building useful things.
               </h4>
-              <h4 className="pt-2">
+              <h4 className="pt-4">
                 <a
                   href="JonathanGzzBenResume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="badge badge-secondary p-3"
                 >
-                  See my resume here.
+                  Get a copy of my resume
                 </a>
               </h4>
             </header>
