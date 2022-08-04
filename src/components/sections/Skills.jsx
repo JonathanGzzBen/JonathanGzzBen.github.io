@@ -45,39 +45,31 @@ const Skills = () => {
   };
 
   const programmingLanguages = [
-    getTechnologyObject("Go", "https://cdn.svgporn.com/logos/go.svg"),
     getTechnologyObject("C", "https://cdn.svgporn.com/logos/c.svg"),
     getTechnologyObject("C++", "https://cdn.svgporn.com/logos/c-plusplus.svg"),
-    getTechnologyObject("C#", "https://cdn.svgporn.com/logos/c-sharp.svg"),
+    getTechnologyObject("Java", "https://cdn.svgporn.com/logos/java.svg"),
+    getTechnologyObject("Go", "https://cdn.svgporn.com/logos/go.svg"),
     getTechnologyObject("Python", "https://cdn.svgporn.com/logos/python.svg"),
     getTechnologyObject(
       "JavaScript",
       "https://cdn.svgporn.com/logos/javascript.svg"
     ),
   ];
-
-  const backendTechnologies = [
-    getTechnologyObject("Go", "https://cdn.svgporn.com/logos/go.svg"),
-    getTechnologyObject(
-      ".NET Core",
-      "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg"
-    ),
-    getTechnologyObject("Laravel", "https://cdn.svgporn.com/logos/laravel.svg"),
-    getTechnologyObject(
-      "Firebase",
-      "https://cdn.svgporn.com/logos/firebase.svg"
-    ),
-  ];
-
-  const frontendTechnologies = [
-    getTechnologyObject("React", "https://cdn.svgporn.com/logos/react.svg"),
+  
+  const frameworks = [
+    getTechnologyObject("Qt", "https://cdn.svgporn.com/logos/qt.svg"),
+    getTechnologyObject("Spring", "https://cdn.svgporn.com/logos/spring-icon.svg"),
+    getTechnologyObject("Google Tests", "https://pluspng.com/img-png/google-developers-logo-png-google-developers-512.png"),
     getTechnologyObject("Next.js", "https://cdn.svgporn.com/logos/nextjs.svg"),
-    getTechnologyObject("Vue.js", "https://cdn.svgporn.com/logos/vue.svg"),
-    getTechnologyObject(
-      "Bootstrap",
-      "https://cdn.svgporn.com/logos/bootstrap.svg"
-    ),
-  ];
+  ]
+  
+  const tools = [
+    getTechnologyObject("Git", "https://cdn.svgporn.com/logos/git-icon.svg"),
+    getTechnologyObject("CMake", "https://freesvg.org/img/cmake2.png"),
+    getTechnologyObject("Conan", "https://cdn.svgporn.com/logos/conan-io.svg"),
+    getTechnologyObject("GNU Tools", "https://cdn.iconscout.com/icon/free/png-256/gnu-202387.png"),
+    getTechnologyObject("Clang Tools", "https://llvm.org/img/DragonMedium.png"),
+  ]
 
   const databases = [
     getTechnologyObject("MySQL", "https://cdn.svgporn.com/logos/mysql.svg"),
@@ -85,7 +77,8 @@ const Skills = () => {
       "MS SQL",
       "https://img.icons8.com/color/96/000000/microsoft-sql-server.png"
     ),
-    getTechnologyObject("MongoDB", "https://cdn.svgporn.com/logos/mongodb.svg"),
+    getTechnologyObject("PostgreSQL", "https://cdn.svgporn.com/logos/postgresql.svg"),
+    getTechnologyObject("Sybase SQL", "https://www.iconshock.com/image/Diamond/Database/sybase/"),
     getTechnologyObject("SQLite", "https://cdn.svgporn.com/logos/sqlite.svg"),
   ];
 
@@ -99,19 +92,19 @@ const Skills = () => {
       "https://cdn.svgporn.com/logos/docker-icon.svg"
     ),
     getTechnologyObject(
-      "UNIX/Linux",
+      "GNU/Linux",
       "https://cdn.svgporn.com/logos/linux-tux.svg"
     ),
     getTechnologyObject(
       "Microsoft Azure",
-      "https://cdn.svgporn.com/logos/azure-icon.svg"
+      "https://cdn.svgporn.com/logos/microsoft-azure.svg"
     ),
   ];
 
   const technologiesGroupsElements = [
     getTechnologiesGroupElement("Programming Languages", programmingLanguages),
-    getTechnologiesGroupElement("Back-End", backendTechnologies),
-    getTechnologiesGroupElement("Front-End", frontendTechnologies),
+    getTechnologiesGroupElement("Frameworks", frameworks),
+    getTechnologiesGroupElement("Tools", tools),
     getTechnologiesGroupElement("Databases", databases),
     getTechnologiesGroupElement("Other", otherTechnologies),
   ];
