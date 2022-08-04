@@ -18,7 +18,7 @@ const Contact = () => {
           </p>
           <ListGroup>
             <ListGroup.Item>
-              <i className="far fa-envelope p-2"></i>
+              <i className="far fa-envelope pr-2"></i>
               jonathangzzben@gmail.com
             </ListGroup.Item>
             <ListGroup.Item>
