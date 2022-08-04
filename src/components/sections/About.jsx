@@ -17,12 +17,13 @@ const About = () => {
             life to software development.
           </p>
           <p>
-            Most of my skills are self-taught. I am an autodidact that considers
-            that learning is the best investment in life.
+            C/C++ are the programming languages I use the most since I like
+            systems programming, directly controlling hardware or consuming
+            the operating system's libraries.
           </p>
           <p>
-            I also love building Gunpla, watching anime and reading Visual
-            Novels.
+            I also like reading light nivels, visual novels, playing MMORPGs and
+            configuring my Arch Linux environment. Yeah, I use Arch btw.
           </p>
         </Col>
       </Row>
