@@ -1,14 +1,14 @@
-export const languages: Record<'fr' | 'en', { name: string; flag: string }> = {
-  fr: { name: 'Français', flag: 'fr' },
+export const languages: Record<'es' | 'en', { name: string; flag: string }> = {
+  es: { name: 'Español', flag: 'mx' },
   en: { name: 'English', flag: 'us' },
 } as const;
 
-export const defaultLanguage = 'fr';
+export const defaultLanguage = 'es';
 
 export type LanguageCode = keyof typeof languages;
 
 export const ui = {
-  fr: {
+  es: {
     projectsContent: {
       sampleProject: {
         title: 'Exemple de Projet',
@@ -67,61 +67,60 @@ export const ui = {
       },
     },
     site: {
-      title: 'Mon Super Template',
+      title: 'Portafolio de JonathanGzzBen',
       description:
-        'Un template Astro moderne et performant pour démarrer votre projet.',
+        'Portafolios y blog de JonathanGzzBen. Un ingeniero en software enfocado en systems, embedded y graphics programming.',
     },
     nav: {
       home: 'Accueil',
       blog: 'Blog',
-      contact: 'Contact',
-      projects: 'Projets',
-      tips: 'Astuces',
+      contact: 'Contacto',
+      projects: 'Proyectos',
+      tips: 'Consejos',
     },
     footer: {
       rights: 'Tous droits réservés.',
     },
     homePage: {
-      pageTitle: 'Accueil |  Développeur FullStack',
+      pageTitle: 'JonathanGzzBen | Ingeniero de Software',
       pageDescription:
-        "Bienvenue sur le portfolio de Jonathan, développeur FullStack passionné par la création d'expériences web innovantes.",
-      heroGreeting: "Salut, c'est Jonathan",
-      heroSubtitlePart1: 'Développeur FullStack',
-      heroSubtitlePart2: 'Passionné UI/UX',
-      heroIntroduction: 'Ajouter une introduction ici.',
-      heroViewWorkButton: 'Mes réalisations',
-      heroContactButton: 'Me contacter',
+        "Bienvenido al portafolios y blog de JonathanGzzBen. Un ingeniero en software enfocado en systems, embedded y graphics programming.",
+      heroGreeting: "Hola, soy Jonathan",
+      heroSubtitlePart1: 'Ingeniero de Software',
+      heroSubtitlePart2: 'Apasionado de los graficos',
+      heroIntroduction: 'Esta es mi introduccion. Soy un ingeniero de software fan del anime',
+      heroViewWorkButton: 'Mis trabajos',
+      heroContactButton: 'Contactame',
       heroImageAlt:
-        'Illustration représentant Jonathan ou un concept de développement',
-      featuredProjectsTitle: '3 derniers projets',
+        'Ilustracion representante de Jonathan desarrollando',
+      featuredProjectsTitle: '3 de mis proyectos recientes',
       featuredProjectsDescription:
-        "Voici quelques projets sur lesquels j'ai récemment travaillé. N'hésitez pas à les explorer !",
-      projectCardViewProject: 'Voir le projet',
-      projectCardViewCode: 'Voir le code',
-      imageNotAvailable: 'Image bientôt disponible',
-      mySkillsTitle: 'Mes Compétences',
+        "Here are some of the projects I've recently worked on. Feel free to explore!",
+      projectCardViewProject: 'Ver proyecto',
+      projectCardViewCode: 'Ver código',
+      imageNotAvailable: 'Imagen no disponible',
+      mySkillsTitle: 'Mis habilidades',
       mySkillsDescription:
-        "Explorez l'expertise et les capacités qui définissent mon travail et ma passion.",
+        'Explora las habilidades y expertiz que definen mi trabajo y pasión.',
     },
     blogPage: {
-      pageTitle: 'Mon Blog Technique',
+      pageTitle: 'Blog técnico de JonathanGzzBen',
       pageDescription:
-        "Articles et réflexions sur le développement web, l'architecture logicielle, et les nouvelles technologies.",
-      title: 'Mon Blog Technique',
+        'Artículos y pensamientos de programación de bajo nivel, gráficos , optimización y nuevas tecnologías.',
+      title: 'Blog técnico de JonathanGzzBen',
       description:
-        "Articles et réflexions sur le développement web, l'architecture logicielle, et les nouvelles technologies.",
-      comingSoon:
-        'Les articles de blog apparaîtront ici bientôt. Revenez plus tard !',
-      heroImageAlt: "Image de couverture pour l'article : ",
-      publishedOn: 'Publié le : ',
-      readMore: 'Lire la suite',
-      readingTimeSuffix: 'min de lecture',
-      searchPlaceholder: 'Rechercher des articles...',
-      filterByTagButtonLabel: 'Filtrer par tag',
-      noTagFound: 'Aucun tag trouvé.',
-      selectTagCommandPlaceholder: 'Rechercher un tag...',
-      allTagsLabel: 'Tous les tags',
-      noPostsFound: 'Aucun article trouvé.',
+        'Artículos y pensamientos de programación de bajo nivel, gráficos , optimización y nuevas tecnologías.',
+      comingSoon: 'Blog posts will appear here soon. Check back later!',
+      heroImageAlt: 'Hero image for article: ',
+      publishedOn: 'Published on: ',
+      readMore: 'Read more',
+      readingTimeSuffix: 'min read',
+      searchPlaceholder: 'Search articles...',
+      filterByTagButtonLabel: 'Filter by tag',
+      noTagFound: 'No tag found.',
+      selectTagCommandPlaceholder: 'Search tag...',
+      allTagsLabel: 'All tags',
+      noPostsFound: 'No posts found.',
     },
     blogPost: {
       publishedOn: 'Publié le : ',
