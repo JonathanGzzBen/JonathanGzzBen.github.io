@@ -21,7 +21,7 @@ console.log(`Using Mermaid strategy: ${mermaidStrategy}`);
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://jonathangzzben.github.io/',
+  site: 'https://jonathangzzben.github.io',
   integrations: [
     react(),
     mdx({
