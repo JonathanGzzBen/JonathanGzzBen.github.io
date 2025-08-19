@@ -42,28 +42,28 @@ export const ui = {
     },
     skillsContent: {
       graphicsProgramming: {
-        title: 'Graphics Programming',
+        title: 'Programacion de gráficos',
         description:
-          'Crafting renderers using OpenGL',
+          'Creacion de renderizadores usando OpenGL.',
       },
       frontendDevelopment: {
-        title: 'Développement Frontend',
+        title: 'Desarrollo frontend',
         description:
-          "Création d'interfaces utilisateur interactives et performantes.",
+          "Creacion de interfaces interactivas y de alto rendimiento.",
       },
       backendDevelopment: {
-        title: 'Développement Backend',
-        description: "Construction de logiques serveur robustes et d'API.",
+        title: 'Desarrollo backend',
+        description: "Construccion de logica de servidor y APIS robustas.",
       },
       uiUxDesign: {
-        title: 'Design UI/UX',
+        title: 'Diseño UI/UX',
         description:
-          "Conception d'expériences utilisateur intuitives et esthétiques.",
+          "Diseño de experiencias intuitivas y esteticamente agradables para el usuario.",
       },
       devOps: {
         title: 'DevOps',
         description:
-          'Automatisation des processus de développement et de déploiement.',
+          'Automatización de procesos de desarrollo y despliegue.',
       },
     },
     site: {
@@ -260,7 +260,7 @@ export const ui = {
       graphicsProgramming: {
         title: 'Graphics Programming',
         description:
-          'Crafting renderers using OpenGL',
+          'Crafting renderers using OpenGL.',
       },
       frontendDevelopment: {
         title: 'Frontend Development',
