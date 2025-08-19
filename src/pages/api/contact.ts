@@ -1,7 +1,5 @@
 import type { APIRoute } from 'astro';
 
-export const prerender = false;
-
 import { contactFormSchema as ContactFormSchema } from '@/features/contact/type'; // Using alias for clarity if needed, or direct import
 // import { sendEmail } from '@/lib/email'; // Example: Your email sending function would be imported here
 import { ui, type LanguageCode } from '@/i18n/ui';
