@@ -11,22 +11,22 @@ export const ui = {
   es: {
     projectsContent: {
       sampleProject: {
-        title: 'Exemple de Projet',
-        description: "Ceci est un projet d'exemple pour le template.",
-        imageAltText: "Image placeholder pour le projet d'exemple",
-        categoryText: 'Application Web',
-        dateText: 'Janvier 2025',
+        title: 'Ejemplo de Proyecto',
+        description: "Este es un ejemplo de proyecto para la plantilla.",
+        imageAltText: "Imagen temporal para el proyecto de ejemplo",
+        categoryText: 'Aplicacion Web',
+        dateText: 'Agosto 2025',
         detailedDescription:
-          "Une description plus détaillée de ce projet d'exemple, montrant comment structurer le contenu pour la page de détail du projet.",
+        "Una descripcion mas detallada de este proyecto de ejemplo, mostrando como estructurar contenido paga la pagina de detalles de proyecto.",
         keyFeatures: {
           responsiveDesign: {
-            title: 'Design Adaptatif',
-            description: "Le projet s'adapte à toutes les tailles d'écran.",
+            title: 'Diseño adaptativo',
+            description: "El proyecto se adapta a cualquier tamaño de pantalla.",
           },
           contentManagement: {
-            title: 'Gestion de Contenu Facile',
+            title: 'Manejo de contenido sencillo',
             description:
-              'Permet une gestion aisée du contenu via des fichiers Markdown ou un CMS.',
+              'Permite facil gestion de contenido usando archivos Markdown o un CMS.',
           },
         },
         galleryImages: {
@@ -36,8 +36,8 @@ export const ui = {
           // },
         },
         challenges:
-          'Description des défis rencontrés lors de la création de ce projet exemple.',
-        learnings: 'Description des apprentissages tirés de ce projet exemple.',
+          'Descripcion de desafios encontrados en la creacion de este proyecto de ejemplo.',
+        learnings: 'Descripcion de los aprendizajes obtenitos con este proyecto de ejemplo.',
       },
     },
     skillsContent: {
@@ -72,14 +72,14 @@ export const ui = {
         'Portafolios y blog de JonathanGzzBen. Un ingeniero en software enfocado en systems, embedded y graphics programming.',
     },
     nav: {
-      home: 'Accueil',
+      home: 'Inicio',
       blog: 'Blog',
       contact: 'Contacto',
       projects: 'Proyectos',
       tips: 'Consejos',
     },
     footer: {
-      rights: 'Tous droits réservés.',
+      rights: 'Todos los derechos reservados.',
     },
     homePage: {
       pageTitle: 'JonathanGzzBen | Ingeniero de Software',
@@ -125,7 +125,7 @@ export const ui = {
     blogPost: {
       publishedOn: 'Publicado el: ',
       updatedOn: 'Actualizado el: ',
-      heroImageAlt: 'Hero image for article: ',
+      heroImageAlt: 'Hero image para el articulo: ',
       backToList: 'Regresar a la lista de articulos',
       readingTimeSuffix: 'minutos de lectura',
       relatedPostsTitle: 'También te recomiendo :',
@@ -212,15 +212,15 @@ export const ui = {
     },
     zodErrors: {
       // Common errors
-      invalid_type: 'Type invalide.',
-      invalid_type_received_undefined: 'Ce champ est requis.', // For required fields (fallback)
-      required_field_custom: 'Le champ {fieldName} est requis.',
+      invalid_type: 'Tipo invalido.',
+      invalid_type_received_undefined: 'Este campo es obligatorio..', // For required fields (fallback)
+      required_field_custom: 'El campo {fieldName} es obligatorio.',
       // String errors
-      too_small_string_minimum: 'Doit contenir au moins {minimum} caractères.',
-      too_big_string_maximum: 'Ne doit pas dépasser {maximum} caractères.',
-      invalid_string_email: 'Adresse e-mail invalide.',
-      invalid_string_url: 'URL invalide.',
-      invalid_string_uuid: 'UUID invalide.',
+      too_small_string_minimum: 'Debe tener al menos {minimum} caracteres.',
+      too_big_string_maximum: 'No debe exceder {maximum} caracteres.',
+      invalid_string_email: 'Direccion de correo electronico invalida.',
+      invalid_string_url: 'URL invalida..',
+      invalid_string_uuid: 'UUID invalido.',
       // You can add more specific messages as needed
     },
   },
