@@ -195,20 +195,20 @@ export const ui = {
     },
 
     tipsPage: {
-      metaTitle: 'Astuces de Développement',
+      metaTitle: 'Consejos de desarrollo',
       metaDescription:
-        'Découvrez des astuces et conseils rapides sur le développement web et la cloud computing.',
+        'Navega una coleccion de mis pequeños consejos acerca de programación e ingenieria de software.',
+      title: 'Consejos más recientes',
       description:
-        'Découvrez des astuces et conseils rapides sur le développement web et la cloud computing.',
-      title: 'Nos Dernières Astuces',
-      noTips: 'Aucune astuce à afficher pour le moment.',
-      readTip: "Lire l'astuce",
-      backToList: 'Retour à la liste des astuces',
-      featuredTips: 'Astuces recommandées',
-      allTips: 'Toutes les astuces',
-      tipsAvailable: 'astuces disponibles',
-      tipAvailable: 'astuce disponible',
-      editOnGithub: 'Modifier sur GitHub',
+        'Navega una coleccion de mis pequeños consejos acerca de programación e ingenieria de software.',
+      noTips: 'No hay consejos que mostrar en este momento.',
+      readTip: "Leer consejo",
+      backToList: 'Regresar a la lista de Consejos',
+      featuredTips: 'Consejos recomendados',
+      allTips: 'Todos los Consejos',
+      tipsAvailable: 'consejos disponibles',
+      tipAvailable: 'consejo disponible',
+      editOnGithub: 'Editar en Github',
     },
     zodErrors: {
       // Common errors
