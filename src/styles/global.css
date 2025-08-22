@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 @import 'tailwindcss';
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -9,32 +10,34 @@
   --font-roboto: 'Roboto', sans-serif;
   --font-opensans: 'Open Sans', sans-serif;
   --color-blacktext: #171717;
-  --color-mint-50: #ecfdf5;
-  --color-mint-100: #d0fbe5;
-  --color-mint-200: #a4f4cf;
-  --color-mint-300: #6ce9b7;
-  --color-mint-400: #31d69a;
-  --color-mint-500: #0dbc82;
-  --color-mint-600: #03986a;
-  --color-mint-700: #027a58;
-  --color-mint-800: #056047;
-  --color-mint-900: #054f3c;
-  --color-mint-950: #012d22;
 
-  --color-riptide-50: #f0fdfa;
-  --color-riptide-100: #cbfcf1;
-  --color-riptide-200: #96f7e4;
-  --color-riptide-300: #5cecd5;
-  --color-riptide-400: #2bd6c1;
-  --color-riptide-500: #12baa8;
-  --color-riptide-600: #0b9689;
-  --color-riptide-700: #0e776f;
-  --color-riptide-800: #105f5a;
-  --color-riptide-900: #124f4b;
-  --color-riptide-950: #03302f;
+  /* 🔴 Replaced mint scale with red scale */
+  --color-mint-50: #fef2f2;
+  --color-mint-100: #fee2e2;
+  --color-mint-200: #fecaca;
+  --color-mint-300: #fca5a5;
+  --color-mint-400: #f87171;
+  --color-mint-500: #ef4444;
+  --color-mint-600: #dc2626;
+  --color-mint-700: #b91c1c;
+  --color-mint-800: #991b1b;
+  --color-mint-900: #7f1d1d;
+  --color-mint-950: #450a0a;
+
+  /* 🔴 Replaced riptide (secondary green/teal) with rose/pink reds */
+  --color-riptide-50: #fff1f2;
+  --color-riptide-100: #ffe4e6;
+  --color-riptide-200: #fecdd3;
+  --color-riptide-300: #fda4af;
+  --color-riptide-400: #fb7185;
+  --color-riptide-500: #f43f5e;
+  --color-riptide-600: #e11d48;
+  --color-riptide-700: #be123c;
+  --color-riptide-800: #9f1239;
+  --color-riptide-900: #881337;
+  --color-riptide-950: #4c0519;
 
   --animate-rotate: rotate 10s linear infinite;
-
   --animate-rotate-border: border-rotate 3s linear infinite;
   @keyframes border-rotate {
     to {
@@ -44,32 +47,31 @@
 }
 
 @property --border-angle{
-	  syntax: "<angle>";
+  syntax: "<angle>";
   inherits: false;
   initial-value: 0deg;
 }
 
 ::selection {
-	@apply text-white bg-mint-500;
-	
-  }
+  @apply text-white bg-mint-500;
+}
+
 *::-webkit-scrollbar-thumb{
-	border-radius: 20px;
+  border-radius: 20px;
 }
 .dark *{
-	scrollbar-color: #6ce9b7 #012d22;
-	scrollbar-width: thin;
+  scrollbar-color: #fca5a5 #450a0a;
+  scrollbar-width: thin;
 }
- *{
-	scrollbar-color: #6ce9b7 #d0fbe5;
-	scrollbar-width: thin;
-	box-sizing: border-box;
+*{
+  scrollbar-color: #fca5a5 #fee2e2;
+  scrollbar-width: thin;
+  box-sizing: border-box;
 }
-
 
 pre, .dark pre {
-	scrollbar-color: #686868 #424242;
-	scrollbar-width:initial;
+  scrollbar-color: #686868 #424242;
+  scrollbar-width:initial;
 }
 
 @keyframes rotate {
@@ -235,7 +237,8 @@ a.inline-block.leading-5.pl-12{
 	display: block;
 	width: 400px;
 	height: 400px;
-	background: #31d69a40;
+	/*background: #31d69a40; Jona*/
+	background: #fc2003;
 	bottom: -400px;
 	right: -300px;
 	position: fixed;
@@ -247,7 +250,8 @@ a.inline-block.leading-5.pl-12{
 
 
 .blur-circle {
-	background-color: rgba(87, 253, 228, 0.29);
+	/*background-color: rgba(87, 253, 228, 0.29);*/
+	background-color: #fc2003;
 	position: absolute;
 	width: 200px;
 	height: 200px;
@@ -264,7 +268,8 @@ a.inline-block.leading-5.pl-12{
 	display: block;
 	width: 500px;
 	height: 500px;
-	background: #50fd8f25 !important;
+	/*background: #50fd8f25 !important; Jona*/
+	background: ##fc2003 !important;
 	bottom: -150px;
 	right: -150px;
 	position: absolute;
