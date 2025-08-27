@@ -5,6 +5,46 @@ export interface Language {
 }
 
 export const languages: Record<string, Language> = {
+  c: {
+    name: "C",
+    iconName: "c",
+  },
+  cpp: {
+    name: "C++",
+    iconName: "c-plusplus",
+  },
+  bash: {
+    name: "Bash",
+    iconName: "bash_dark",
+  },
+  vim: {
+    name: "Vim",
+    iconName: "vim",
+  },
+  visualStudio: {
+    name: "Visual Studio",
+    iconName: "visual-studio",
+  },
+  qt: {
+    name: "Qt",
+    iconName: "qt",
+  },
+  linux: {
+    name: "Linux",
+    iconName: "linux",
+  },
+  postgreSql: {
+    name: "PostgreSQL",
+    iconName: "postgresql",
+  },
+  go: {
+    name: "Go",
+    iconName: "golang_dark",
+  },
+  java: {
+    name: "Java",
+    iconName: "java",
+  },
   angular: {
     name: "Angular",
     iconName: "angular",
