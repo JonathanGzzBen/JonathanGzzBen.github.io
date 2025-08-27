@@ -5,14 +5,14 @@
   "profileTitle": "Software Engineer",
   "profileName": "Jonathan Gonzalez Benavides",
   "github": "https://github.com/JonathanGzzBen",
-  "githubText": "Do you like this blog's design?",
+  "githubText": "All code in my Github",
   "portfolioImage": "/images/portfolio.webp",
-  "email": "hello@efeele.dev",
+  "email": "jonathangzzben@gmail.com",
   "linkedin": "https://www.linkedin.com/in/jonathangzzben/",
-  "instagram": "https://www.instagram.com/Jonark/",
+  "instagram": "https://www.instagram.com/jonark2001/",
   "youtube": "https://www.youtube.com/@Jonark",
   "alias": "Jonark",
-  "contactSectionTitle": "Ready to take your idea to the next level?",
+  "contactSectionTitle": "Got a project idea?",
   "contactSectionSubtitle": "Let's work together.",
   "contactSectionButtonText": "Contact Me",
   "contactSectionButtonIcon": "paperplane",
@@ -30,7 +30,7 @@
     "Warhammer 40k"
   ],
   "pageTitle": "JonathanGzzBen Portfolio",
-  "pageDescription": "Is a modern, minimalist template crafted for developers and digital creatives.",
+  "pageDescription": "JonathanGzzBen Portfolio and Blogging site.",
   "OGImage": {
     "url": "/images/imagedefault.webp",
     "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Jonathan Gonzalez Benavides, a Frontend Developer with 8 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like HTML5, JavaScript, TypeScript, Angular, Node.js, CSS, Tailwind, and more."
