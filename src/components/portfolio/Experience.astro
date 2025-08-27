@@ -1,0 +1,53 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+import Heading from "../ui/Heading.astro";
+import { Icon } from "astro-icon/components";
+
+const EXPERIENCE = [
+  {
+    date: "2024 - Present",
+    title: "Software Analyst II",
+    company: "FIS",
+    description:
+    "I develop secure financing systems for several clients, including banks and governments from Latin America and United States of America.",
+  },
+  {
+    date: "2022 - 2024",
+    title: "Software Analyst",
+    company: "Banregio",
+    description:
+    "I developed core critical systems with high requirements of security, robustness and performance. I also proactively developed multiple internal tools to speed up several processes throughout many operation areas.",
+  },
+];
+---
+
+<section class="py-8 px-8 max-md:py-4 mb-4 scroll-m-16" id="experience">
+  <div class="flex flex-col pt-8 max-w-4xl mx-auto">
+    <div class="flex gap-4 items-center justify-center">
+      <Icon class="text-3xl dark:text-white text-blacktext" name="briefcase" />
+      <Heading text="Work" textGradient="Experience" level={2} />
+    </div>
+
+    <div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
+      <ol class="relative mt-10">
+        {
+          EXPERIENCE.map((experience, index) => (
+            <li>
+              <article
+                role="article"
+                aria-labelledby={`experience-title-${index}`}
+              >
+                <div
+                  class="flex flex-col gap-2  text-zinc-00 dark:text-zinc-300 md:col-span-3"
+                  aria-describedby={`experience-title-${index}`}
+                >
+                  <ExperienceItem {...experience} />
+                </div>
+              </article>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+{
+  "profileImage": "/images/jonark_pfp.webp",
+  "profileAlt": "Photo of Jonathan Gonzalez Benavides for the blog",
+  "profileLink": "/about-me",
+  "profileTitle": "Software Engineer",
+  "profileName": "Jonathan Gonzalez Benavides",
+  "github": "https://github.com/JonathanGzzBen",
+  "githubText": "All code in my Github",
+  "portfolioImage": "/images/portfolio.webp",
+  "email": "jonathangzzben@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/jonathangzzben/",
+  "instagram": "https://www.instagram.com/jonark2001/",
+  "youtube": "https://www.youtube.com/@Jonark",
+  "alias": "Jonark",
+  "contactSectionTitle": "Have a project in mind?",
+  "contactSectionSubtitle": "Let’s engineer what’s next.",
+  "contactSectionButtonText": "Contact Me",
+  "contactSectionButtonIcon": "paperplane",
+  "techsTitle": "TECHS",
+  "instagramIconName": "instagram",
+  "youtubeIconName": "youtube",
+  "githubIconName": "github",
+  "linkedinIconName": "linkedin",
+  "emailIconName": "envelope",
+  "hobbies": [
+    "Writing",
+    "Drumming",
+    "Music",
+    "Anime",
+    "Warhammer 40k"
+  ],
+  "pageTitle": "JonathanGzzBen Portfolio",
+  "pageDescription": "JonathanGzzBen Portfolio and Blogging site.",
+  "OGImage": {
+    "url": "/images/imagedefault.webp",
+    "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Jonathan Gonzalez Benavides, a Frontend Developer with 8 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like HTML5, JavaScript, TypeScript, Angular, Node.js, CSS, Tailwind, and more."
+  }
+}
