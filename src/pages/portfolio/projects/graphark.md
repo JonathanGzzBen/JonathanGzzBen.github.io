@@ -1,7 +1,7 @@
 ---
 layout:  /src/layouts/ProjectLayout.astro
 title: 'Graphark'
-pubDate: 2025-07-22
+pubDate: 2025-07-08
 description: 'Graphark is a math graphing calculator built using OpenGL.'
 languages: ["cpp"]
 image:
